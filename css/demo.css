@@ -1,0 +1,211 @@
+html, body {
+    max-width:100%;
+    overflow-x:hidden;
+}
+.web{
+background-image: url("../img/pngwing 1.png");
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+/* .web::before{
+    background: url(../img/breadcrumb-shape-2.png.png);
+    width: 123px
+height: 191px
+left: 1470.89px
+angle: -0 deg
+
+} */
+.web::before{
+    content: '';
+    background: url(../img/breadcrumb-shape-2.png.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 225px;
+    left: 1803px;
+  
+    width: 100vw;
+    height: 100vh;
+}
+.web::after{
+   
+    content: '';
+    background: url(../img/breadcrumb-shape-3.png.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 25px;
+    left: 1826px;
+    width: 100vw;
+    height: 100vh;
+}
+.web h2{
+    background: url(../img/div.shape-image.png);
+    background-repeat: no-repeat;
+ 
+    background-size: contain;
+    font-family: 'Poppins, sans-serif';
+font-size: 32px;
+font-weight: 600;
+line-height: 47px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 100px;
+}
+/* .web h2::before{
+    background: url(../img/div.shape-image.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    position: absolute;
+    top: 25px;
+    right: 1826px;
+    width: 100vw;
+    height: 100vh;
+} */
+.web p{
+    padding-left: 12px;
+    display: inline;
+    font-family: 'Poppins, sans-serif';
+font-size: 15px;
+font-weight: 500;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+color: #181818;
+
+
+}
+.web img{
+    padding-top: 100px
+}
+.overview{
+    background-color: #fff;
+    padding-top: 50px;
+}
+.overview button{
+    background-color: #fff;
+    border: solid 0px;
+    padding-left: 25px;
+    border-bottom: 38px;
+    color: gray;
+    font-size: 20px;
+    font-family: 'Poppins, sans-serif';
+}
+.overview h3{
+    font-family: 'Poppins, sans-serif';
+font-size: 25px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.overview p{
+    font-family: 'Poppins, sans-serif';
+font-size: 15px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #808080;
+
+}
+.overview ul {
+    list-style: none;
+  }
+  
+  ul li:before {
+    content: '✓';
+    color :Green ;
+    font-weight: 900;
+  }
+.overview li{
+    font-family: 'Poppins, sans-serif';
+font-size: 15px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+}
+.box{
+    background: #f1f1f1;
+    border: 3.87px solid #FFFFFF;
+    box-shadow: 0px 10px 50px 0px #1A2E5512;
+    margin-top: -96px;
+    border-radius: 39px;
+    padding-bottom: 50px;
+   
+}
+
+
+.coursepara{
+font-family: Spartan  !important;
+font-size: 15px  !important;
+font-weight: 500  !important;
+line-height: 26px  !important;
+letter-spacing: 0em  !important;
+text-align: left  !important;
+color:#000 !important;
+}
+
+.coursepara1{
+    font-family:'Poppins, sans-serif'!important;
+font-size: 17px !important;
+font-weight: 600 !important;
+line-height: 35px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color: #D2A263 !important;
+}
+coursepara2{
+font-family: 'Poppins, sans-serif'!important;
+font-size: 15px !important;
+font-weight: 500 !important;
+line-height: 26px !important;
+letter-spacing: 0em !important;
+text-align: left !important;
+color:#000 !important;
+}
+.btn{
+    background-color: #D2A263 !important;
+    color: #fff !important;
+    border-radius: 3px !important;
+    padding: 10px !important;
+    
+}
+.btn1{
+    background-color: #bababa !important;
+    color: #000 !important;
+    border-radius: 3px !important;
+    padding: 10px !important;
+}
+.overview h4{
+    font-family: 'Poppins, sans-serif';
+font-size: 18px;
+font-weight: 500;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #181818;
+
+
+}
+.socials{
+  
+    border: 1px solid #bababa  !important;
+    border-radius: 99px;
+    padding: 9px;
+}
+
+@media only screen and (max-width: 1280px) {
+    web::after {display: none;}
+    .web::before {display: none;}
+    .box {
+        margin-top: 9px;
+       
+    }
+}
+
+
+
+
