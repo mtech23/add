@@ -8,6 +8,9 @@ background-size: cover;
 background-repeat: no-repeat;
 
 }
+.icon{
+    color:#b6803a;
+}
 /* .web::before{
     background: url(../img/breadcrumb-shape-2.png.png);
     width: 123px

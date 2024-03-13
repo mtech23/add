@@ -54,18 +54,19 @@ text-align: left;
     vertical-align: middle;
   
 }
-.table .lastrow td{
+/* .table .lastrow td{
     padding-bottom: 47px ;
-    border-bottom: none;}
+    border-bottom: none;} */
     
-    .table th:last-child, td:last-child {
+    /* .table th:last-child, td:last-child {
         border-right:none !important;
         
     border-bottom: none;
-    }
+    } */
 
 .table td {
     padding-bottom: 47px ;
+    padding-top: 30px;
 }
 .dollar{
     margin-top:30px;
