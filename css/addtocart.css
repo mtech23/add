@@ -28,6 +28,17 @@ color: #0D0D0D;
 
 
 }
+.cart h5.resh{
+    
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #0D0D0D;
+    
+    
+    }
 .cart p{
 
    color:  #333333;
@@ -38,6 +49,16 @@ letter-spacing: 0em;
 text-align: left;
 
 }
+.cart p.res{
+
+    color:  #333333;
+ font-size: 16px;
+ font-weight: 400;
+ line-height: 21px;
+ letter-spacing: 0em;
+ text-align: left;
+ 
+ }
 .cart button{
     background: #B10000;
     font-size: 13px;
@@ -69,18 +90,20 @@ text-align: left;
     padding-top: 30px;
 }
 .dollar{
-    margin-top:30px;
-    font-size: 24px !important;
-    font-weight: 700 !important;
-    
-    letter-spacing: 0 !important;
-    text-align: center !important;
-    background: #233862 !important;
-    color: #fff !important;
-    width: 102px;
-    height: 102px;
-    border-radius: 50%;
-    padding-top: 38px !important;
+       margin-top: 30px;
+       font-size: 24px !important;
+       font-weight: 700 !important;
+       /* letter-spacing: 0 !important; */
+       text-align: center !important;
+       background: #233862 !important;
+       color: #fff !important;
+       width: 72px;
+       height: 72px;
+       border-radius: 50%;
+       padding-top: 27px !important;
+       /* vertical-align: middle !important; */
+       /* justify-content: center; */
+   
 }
  .summary  {
    
@@ -151,6 +174,11 @@ color: #787878;
 
     margin: 4px 0px;
 }
+.resimg{
+    max-width: 100%;
+    height: auto;
+  
+}
 
 
 @media only screen and (max-width: 1280px) {
@@ -161,4 +189,26 @@ color: #787878;
         margin-top: 20px !important;
     }
 }
+@media only screen and (max-width: 768px) {
+   
+    
+    .cart p.res{
+        display: none;
+}
+.resimg{
+    height: 104px;
+    width: 516px;
+}
+   
 
+.cart h5.resh{
+    
+    font-size: 15px;
+
+    
+    }
+    .cart .dot button {
+        width: 139px;
+    }
+
+}
